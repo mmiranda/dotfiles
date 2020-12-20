@@ -6,6 +6,7 @@ cask "iterm2"
 brew "thefuck"
 brew "autojump"
 cask "1password"
+brew "gnupg"
 
 brew "fzf"
 cask "viscosity"
