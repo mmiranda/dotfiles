@@ -113,3 +113,4 @@ eval $(thefuck --alias)
 if [ -f ~/.dotfiles/.aliases ]; then
    source ~/.dotfiles/.aliases
 fi
+export PATH="/usr/local/sbin:$PATH"

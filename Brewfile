@@ -20,6 +20,7 @@ brew "git"
 cask "spotify"
 cask "skype"
 cask "slack"
+cask "zoom"
 
 # Cloud
 brew "awscli"
