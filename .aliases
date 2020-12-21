@@ -7,4 +7,4 @@ alias fixdns="sudo networksetup -setnetworkserviceenabled Wi-Fi off && sudo rout
 # UNCATEGORIZED
 eval $(thefuck --alias)
 alias gam="/Users/mateus/bin/gam/gam"
-eval "$(jump shell)"
+#eval "$(jump shell)"

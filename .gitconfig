@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+    name = Mateus Miranda
+    email = mateusmiranda@gmail.com
+
+    signingkey = 8970974560AE10B834F0104B9557B741020A6EF0
+
+[commit]
+    gpgsign = true
+
+[includeIf "gitdir:~/work/git/"]
+    path = ~/work/git/.gitconfig
+
