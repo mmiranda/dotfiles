@@ -1,0 +1,25 @@
+hgrep() {
+   history | grep $1
+}
+
+npass() {
+   date | openssl md5 | tr a-z A-Z | base64
+}
+
+vaultx() {
+   aws-vault exec $AWS_VAULT_PROFILE -- $@
+}
+
+awslogin() {
+   aws-vault login $AWS_VAULT_PROFILE --duration=1h
+}
+
+aws-profile() {
+   export AWS_VAULT_PROFILE=$(aws-vault ls --profiles | fzf)
+   export AWS_SESSION_TOKEN_TTL=12h
+   export AWS_ASSUME_ROLE_TTL=1h
+}
+
+use-kube() {
+   export KUBECONFIG=~/.kube/$(ls ~/.kube | fzf)
+}
