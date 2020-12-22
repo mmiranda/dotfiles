@@ -1,0 +1,9 @@
+# GAM Project - Gsuite manager
+# needed to overwrite default gam alias from zsh
+alias gam="/Users/mateus/bin/gam/gam"
+
+# Autojump setup
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+# The fuck setup
+eval $(thefuck --alias)

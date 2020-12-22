@@ -2,11 +2,12 @@
 cask "rectangle"
 brew "zsh"
 cask "iterm2"
-#cask "google-chrome"
+cask "brave-browser"
 brew "thefuck"
 brew "autojump"
 cask "1password"
 brew "gnupg"
+brew "htop"
 
 brew "fzf"
 cask "viscosity"
@@ -33,3 +34,5 @@ brew "k9s"
 
 # Experiment
 cask "notion"
+
+brew "gh"

@@ -113,6 +113,7 @@ if [ -d ~/.dotfiles ]; then
    source ~/.dotfiles/.aliases
    source ~/.dotfiles/.tools-functions
    source ~/.dotfiles/.bindkeys
+   source ~/.dotfiles/.external-packages
 fi
 export PATH="/usr/local/sbin:$PATH"
 

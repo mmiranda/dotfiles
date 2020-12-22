@@ -24,4 +24,3 @@ use-kube() {
    export KUBECONFIG=~/.kube/$(ls ~/.kube | fzf)
 }
 
-function gam() { "/Users/mateus/bin/gam/gam" "$@" ; }

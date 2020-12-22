@@ -5,6 +5,3 @@ alias gitclean="git fetch --prune;git branch -r --merged | grep -v master | sed 
 alias myip="curl ipinfo.io/ip"
 alias fixdns="sudo networksetup -setnetworkserviceenabled Wi-Fi off && sudo route flush && sudo sudo networksetup -setnetworkserviceenabled Wi-Fi on"
 
-# UNCATEGORIZED
-eval $(thefuck --alias)
-#eval "$(jump shell)"
