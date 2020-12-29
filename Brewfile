@@ -8,20 +8,32 @@ brew "autojump"
 cask "1password"
 brew "gnupg"
 brew "htop"
-
+brew "ipcalc"
+brew "telnet"
 brew "fzf"
-cask "viscosity"
-brew "tfenv"
 brew "tree"
 brew "jq"
-cask "visual-studio-code"
-cask "authy"
 brew "vim"
 brew "git"
+brew "sops"
+brew "gh"
+brew "gnu-getopt"
+
+# Misc Apps
 cask "spotify"
 cask "skype"
 cask "slack"
 cask "zoom"
+cask "notion"
+cask "visual-studio-code"
+cask "viscosity"
+cask "authy"
+
+
+# Infrastructure
+brew "tfenv"
+tap "alextodicescu/tgenv"
+brew "tgenv"
 
 # Cloud
 brew "awscli"
@@ -31,8 +43,5 @@ cask "aws-vault"
 cask "docker"
 brew "kubectl"
 brew "k9s"
-
-# Experiment
-cask "notion"
-
-brew "gh"
+brew "aws-iam-authenticator"
+brew "helm"
